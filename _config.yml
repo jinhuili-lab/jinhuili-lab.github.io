@@ -21,7 +21,7 @@ author: Jinhui Li
 
 navbar-links:
   Home: "./index.html"
-  Reseach: "researches"
+  Reseach: "research"
   Publications: "publication"
   #Resources:
   #  - Beautiful Jekyll: "https://beautifuljekyll.com"
