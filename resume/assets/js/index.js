@@ -1,1 +1,0 @@
-console.log("感谢您的浏览，期待能够合作！我的简历：https://flybirdsci.com/cv_lijinhui/");
