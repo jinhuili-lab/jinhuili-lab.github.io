@@ -23,6 +23,7 @@ navbar-links:
   Home: "./index.html"
   Reseach: "research"
   Publications: "publication"
+  Blog: "./blog/"
   #Resources:
   #  - Beautiful Jekyll: "https://beautifuljekyll.com"
   #  - Learn markdown: "https://www.markdowntutorial.com/"
