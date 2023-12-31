@@ -30,7 +30,7 @@ body {
  * ------------------------------------------------- */
 .container .side {
   position: absolute;
-  width: 20rem;
+  width: 18rem;
   background: #fff;
   border-radius: 5px;
   box-shadow: 0 5px 20px #bbb;
@@ -100,7 +100,7 @@ body {
     width: 60%; }
 .container .main {
   position: relative;
-  margin-left: 22rem;
+  margin-left: 19.5rem;
   background: #fff;
   border-radius: 5px;
   box-shadow: 0 5px 20px #bbb;
