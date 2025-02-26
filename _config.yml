@@ -23,7 +23,7 @@ navbar-links:
   Home: "./index.html"
   Reseach: "research"
   Publications: "publication"
-  Blog: "./blog/"
+  Blog: "https://blog.flybirdsci.com/"
   #Resources:
   #  - Beautiful Jekyll: "https://beautifuljekyll.com"
   #  - Learn markdown: "https://www.markdowntutorial.com/"
