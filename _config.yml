@@ -23,7 +23,7 @@ navbar-links:
   Home: "./index.html"
   Reseach: "research"
   Publications: "publication"
-  Blog: "https://blog.flybirdsci.com/"
+  Blog: "https://jinhuili-lab.github.io/blog/"
   #Resources:
   #  - Beautiful Jekyll: "https://beautifuljekyll.com"
   #  - Learn markdown: "https://www.markdowntutorial.com/"
@@ -64,7 +64,7 @@ social-network-links:
   #youtube: "@daattali"
 #  medium: yourname
 #  reddit: yourname
-#  linkedin: daattali
+  linkedin: jinhuili-lab
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78

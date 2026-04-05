@@ -4,7 +4,7 @@ title: Research
 subtitle: 
 ---
 
-In my previous work， I focusd on many projects, including metagenomics assembly, drug design, multi-omics, AI model building, software and database development.
+In my previous work， I focusd on human genome, microbiome projects and proteinomics, including metagenomics assembly, drug design, multi-omics, AI model building, software and database development.
 
 1. SApredict. We build the Machine learning model to predict the SA based on the metagenomics. Under review.
 
@@ -30,11 +30,13 @@ In my previous work， I focusd on many projects, including metagenomics assembl
 
 ### Fulture
 Computational biology research is very exciting. 
-- Now I focus on  explore the relationship between the repeats area in multiple genomics and disease, such as AD. 
+- Explore the relationship between the repeats area in multiple genomics and disease, such as AD. 
 	* More and more species genomics has been sequenced, but few are explored clearly. Using new methods to explore pathogenicity of the repeats.
 	* At the same time, I want to develop some tools to detect the repeats in multiple species genomics. Machine learning and Deep learning are very useful algorithms for that. GPU cuda technique also can promote my research.
-- Also, I want to continue my metagenome research. 
+- Metagenome research. 
 	* Developing a software to assembly the metagenomics with low momery is neccessary now.
 	* Based on the FMT technique(Fecal microbiota transplantation), It is very meaningful to improve the well-being of cancer or sub-healthy people.
+- Protein function prediction
+	* With Large Language model and BiLSTM, we try to construct the model for protein function.
 
  
