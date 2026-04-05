@@ -3,8 +3,6 @@ layout: post
 title: MicrobioSee
 subtitle: A Web-Based Visualization Toolkit for Multi-Omics of Microbiology
 cover-img: /assets/img/path.jpg
-thumbnail-img: ![img](https://jinhuili-lab.github.io/assets/img/avatar-icon.png)
-tags: [publication, MicrobioSee]
 author: Jinhui Li
 comments: true
 gh-repo: daattali/beautiful-jekyll
@@ -12,7 +10,8 @@ gh-badge: [star, fork, follow]
 ---
 
 #  MicrobioSee：A Web-Based Visualization Toolkit for Multi-Omics of Microbiology  
-
+![img](https://jinhuili-lab.github.io/assets/img/avatar-icon.png)
+tags: [publication, MicrobioSee]
 
 With the upgrade and development of the high-throughput sequencing technology, multi-omics data can be obtained at a low cost. However, mapping tools that existed for microbial multi-omics data analysis cannot satisfy the needs of data description and result in high learning costs, complex dependencies, and high fees for researchers in experimental biology fields. 
 Therefore, developing a toolkit for multi-omics data is essential for microbiologists to save effort. In this work, we developed MicrobioSee, a real-time interactive visualization tool based on web technologies, which could visualize microbial multi-omics data. 
