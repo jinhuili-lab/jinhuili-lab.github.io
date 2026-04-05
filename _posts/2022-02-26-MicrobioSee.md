@@ -4,7 +4,7 @@ title: MicrobioSee
 subtitle: A Web-Based Visualization Toolkit for Multi-Omics of Microbiology
 cover-img: /assets/img/path.jpg
 thumbnail-img: ![img](https://jinhuili-lab.github.io/assets/img/avatar-icon.png)
-tags: [publication, MicrobioSee,]
+tags: [publication, MicrobioSee]
 author: Jinhui Li
 comments: true
 gh-repo: daattali/beautiful-jekyll
