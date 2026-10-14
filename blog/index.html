@@ -1,37 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta property="og:site_name" content="Li zone">
-  <meta property="og:title" content="Jinhui Li">
-  <meta name="keywords" content="李金辉,生物信息,蛋白质, 深度学习, Jinhui Li" />
-  <meta name="author" content="Jinhui Li">
-
-  <link rel="shortcut icon" type="image/x-icon"  href="https://jinhuili-lab.github.io/assets/img/seaside.jpg">
-
-  <meta name="description"  content="zone for self(Some day, it will be a website for my own LAB)">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>江湖之远-李金辉</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      overflow: hidden; /* 隐藏滚动条 */
-    }
-    .hidden-iframe {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      border: none;
-      opacity: 1; /* 确保显示但没有边框 */
-      z-index: 9999; /* 确保在最上层 */
-      background: transparent;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta property="og:site_name" content="Li zone">
+    <meta property="og:title" content="Jinhui Li">
+    <meta name="keywords" content="李金辉,生物信息,蛋白质, 深度学习, Jinhui Li" />
+    <meta name="author" content="Jinhui Li">
+    <link rel="shortcut icon" type="image/x-icon"  href="https://jinhuili-lab.github.io/assets/img/seaside.jpg">
+    <meta name="description"  content="zone for self(Some day, it will be a website for my own LAB)">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>江湖之远-李金辉</title>
+    <style>
+        body { 
+            margin: 0; 
+            padding: 0; 
+            overflow: hidden; /* 隐藏滚动条 */ 
+        } 
+        .hidden-iframe { 
+            position: fixed; 
+            top: 0; 
+            left: 0; 
+            width: 100%; 
+            height: 100%; 
+            border: none; 
+            opacity: 1; 
+            z-index: 9999; 
+            background: transparent; 
+        }
+    </style>
 </head>
 <body>
-  <iframe class="hidden-iframe" src="https://reading-record-ruddy.vercel.app/"></iframe>
+    <iframe id="app-iframe" class="hidden-iframe" src=""></iframe>
+
+    <script>
+        const defaultUrl = "https://reading-record-ruddy.vercel.app/";
+        const params = new URLSearchParams(window.location.search);
+        const targetUrl = params.get('url') ? decodeURIComponent(params.get('url')) : defaultUrl;
+
+        document.getElementById('app-iframe').src = targetUrl;
+    </script>
 </body>
 </html>
