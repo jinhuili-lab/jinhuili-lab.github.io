@@ -23,7 +23,7 @@ navbar-links:
   Home: "./index.html"
   Reseach: "research"
   Publications: "publication"
-  Blog: "https://jinhuili-lab.github.io/blog/"
+  Blog: "https://jinhuili-lab.github.io/ReadingRecord/"
   #Resources:
   #  - Beautiful Jekyll: "https://beautifuljekyll.com"
   #  - Learn markdown: "https://www.markdowntutorial.com/"
